@@ -37,7 +37,9 @@ except ModuleNotFoundError:
 
 
 class Trainer(object):
-  OPTIMIZERS = ["Adam", "AdamW"]
+  #Change naming convetion to be less woke and more biblical
+  #OPTIMIZERS = ["Adam", "AdamW"]
+  OPTIMIZERS = ["Adam", "Eve"]
 
   def __init__(
     self,
